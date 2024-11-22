@@ -1,17 +1,17 @@
 app:
   name: LogCollectorGL
   code: LCGL
-  notify: kullas@ecloudcontrol.com
+  notify: aannavarghese@ecloudcontrol.com
 
 build:
-  version: 5.2
+  version: 6.1
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: graylog-5.2
+  image_template: graylog-6.1
 
 deploy:
-  context: krishna-ullas/DEV
+  context: ansu-cc/DEV
   type: statefulset
   replicas: 1
   port:
@@ -26,7 +26,7 @@ volumes:
   name: graylog-data
 
 monitor:
-  notify: kullas@ecloudcontrol.com    
+  notify: aannavarghese@ecloudcontrol.com    
 
 properties:
   revision : 17

@@ -29,7 +29,7 @@ monitor:
   notify: aannavarghese@ecloudcontrol.com    
 
 properties:
-  revision : 18
+  revision : 19
   TZ : Asia/Kolkata
   GRAYLOG_MONGODB_URI : mongodb://mongo-8-0:27017/graylog
   GRAYLOG_ELASTICSEARCH_HOSTS : http://elasticsearch-8-15-0.elasticsearch-8-15:9200/
